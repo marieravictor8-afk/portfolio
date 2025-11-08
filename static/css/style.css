@@ -1,0 +1,155 @@
+
+* {
+    margin:0;
+    padding: 5px;
+    box-sizing: border-box;
+    scroll-behavior: smooth; /* simple smooth scroll too */
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(242, 140, 77, 0.995);
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 15px;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .nav-links a:hover {
+    color: #007bff;
+  }
+  
+
+  .hero {
+    text-align: center;
+    padding: 5rem 2rem;
+    background-image: url('../images/bg.jpeg');
+    color: white;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1.5rem;
+    border: 5px solid white;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s;
+  }
+  
+  .btn:hover {
+    background: #0056b3;
+  }
+  
+  .btn-outline {
+    background: transparent;
+    border: 2px solid white;
+  }
+  
+  .btn-outline:hover {
+    background: white;
+    color: #2575fc;
+  }
+  .about{
+    background-color: burlywood;
+  }
+  
+  /* Sections */
+  .about, .projects, .contact {
+    max-width: 1000px;
+    margin: 5rem auto;
+    padding: 0 2rem;
+    text-align: center;
+    border-radius:10px;
+  }
+  
+  #skills{
+    text-align: center;
+    background-color: bisque;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  #projects{
+    background-color: bisque;
+  }
+  
+  .social-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .social-links img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+  }
+  
+  .social-links img:hover {
+    transform: scale(1.2);
+  }
+  .container{
+    text-align: center;
+    background: rgba(242, 140, 77, 0.995);
+  }
+  
